@@ -4,18 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg4"
     tools:context=".TransactionCreate">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="16dp"
-        android:text="Transactions"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+
+        android:fontFamily="@font/abhaya_libre_extrabold"
+        android:text="Add Transaction"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,10 +29,9 @@
         android:id="@+id/transactionId"
         android:layout_width="209dp"
         android:layout_height="32dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="24dp"
         android:hint="Name"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -34,10 +39,9 @@
         android:id="@+id/editTextTextPersonName"
         android:layout_width="209dp"
         android:layout_height="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="28dp"
         android:hint="Name"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/transactionId" />
 
@@ -80,4 +84,25 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="180dp"
+        android:layout_height="28dp"
+        android:text="Select Transaction number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="181dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="4dp"
+        android:text="Select User"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transactionId" />
 </androidx.constraintlayout.widget.ConstraintLayout>

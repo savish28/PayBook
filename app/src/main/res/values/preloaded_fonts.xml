@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre_extrabold</item>
+        <item>@font/aclonica</item>
+        <item>@font/adamina</item>
+        <item>@font/amaranth_bold</item>
+        <item>@font/aref_ruqaa_bold</item>
+        <item>@font/averia_serif_libre_bold_italic</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/buenard_bold</item>
+        <item>@font/cambo</item>
+        <item>@font/contrail_one</item>
+        <item>@font/copse</item>
+        <item>@font/croissant_one</item>
+        <item>@font/donegal_one</item>
+        <item>@font/lily_script_one</item>
+    </array>
+</resources>
