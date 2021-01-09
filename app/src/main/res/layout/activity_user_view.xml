@@ -46,7 +46,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:layout_marginLeft="25dp"
-        android:text="TextView"
         app:layout_constraintBaseline_toBaselineOf="@+id/user_view_extra"
         app:layout_constraintStart_toStartOf="parent" />
 
